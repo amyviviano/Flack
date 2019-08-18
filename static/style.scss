@@ -1,0 +1,59 @@
+.container {
+    margin: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#heading {
+    margin: 20px;
+}
+
+#welcome {
+    margin: 20px;
+}
+
+#channel-list {
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#channel-room {
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#channels {
+    list-style:none;
+    padding-left: 15px;
+}
+
+#channel-title {
+    margin: 10px;
+}
+
+#channel-list-title {
+    margin: 10px;
+}
+
+#form-channel {
+    margin: 10px;
+}
+
+#form-message {
+    margin: 10px;
+    padding: 5px;
+}
+
+.nav-link {
+    color: #3366BB;
+    font-weight: bold;
+}
+
+.newChannelMessage {
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+}

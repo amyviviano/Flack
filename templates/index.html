@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"></script>
+        <script src="{{ url_for('static', filename='script.js') }}"></script>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <title>Flack</title>
+    </head>
+    <body>
+        <h1 id="heading">Flack</h1>
+        <h3 id="welcome"></h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <div id="channel-list">
+                        <h2 id="channel-list-title">Channels</h2>
+                        <!-- Room for Channel list -->
+                        <ul id="channels">
+                            {% for channel in channels %}
+                                <li><a href="" class="nav-link" data-channel="{{ channel }}">{{ channel }}</a></li>
+                            {% endfor %}
+                        </ul>
+                        <form id="form-channel">
+                            <input id="channel-name" autocomplete="off" autofocus placeholder="New Channel Name" type="text">
+                            <input id="submit" input type="submit">
+                            <p id="channel-name-errormsg"></p>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                    <div id="channel-room">
+                    <h2 id="channel-title"></h2>
+                    <!-- Room for Channel messages -->
+                    <div id="channel-messages"></div>
+                        <form id="form-message">
+                            <input id="message" autocomplete="off" autofocus placeholder="New Message" type="text">
+                            <input id="submit2" input type="submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
