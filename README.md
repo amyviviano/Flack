@@ -14,7 +14,7 @@ Channel List: Users can see a list of all current channels, and selecting one al
 
 Messages View: Once a channel is selected, the user can any messages that have already been sent in that channel, up to a maximum of 100 messages. The 100 most recent messages per channel are stored in server-side memory.
 
-Sending Messages: Once in a channel, users can send text messages to others in the channel. When a user sends a message, their display name and the timestamp of the message are displayed with the message. All users in the channel should then see the new message (with display name and timestamp) appear on their channel page. Sending and receiving messages does NOT require reloading the page.
+Sending Messages: Once in a channel, users can send text messages to others in the channel. When a user sends a message, their display name and the timestamp of the message are displayed with the message. All users in the channel should then see the new message appear on their channel page. Sending and receiving messages does NOT require reloading the page.
 
 Remembering the Channel: If a user is on a channel page, closes the web browser window, and goes back to the Flack application, the app remembers what channel the user was on previously and takes the user back to that channel.
 
