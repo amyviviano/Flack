@@ -1,6 +1,7 @@
 # Flack
 
 A Web Programming project using Python, Flask, JavaScript, and websockets (Socket.io)
+A single-page website that uses HTML, CSS, SCSS, and Bootstrap4 for reponsive display.
 
 Flack is an online messaging service using Flask, similar in spirit to Slack. Users can sign into this site with a display name, create channels (chatrooms) to communicate in, as well as see and join existing channels. Once a channel is selected, users can send and receive messages with one another in real time.
  
